@@ -11,7 +11,7 @@ function App() {
     <div className='main-container'>
       <Header />
       <Form />
-      <ImageHolder />
+      {/* <ImageHolder /> */}
       <PopularMeme />
     </div>
   );
