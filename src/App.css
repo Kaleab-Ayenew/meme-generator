@@ -81,11 +81,13 @@ body{
 
 /* Image Container CSS rules */
 
-.form-container{
+.image-container{
   width: 100%;
   padding: 0 30px;
+  display: flex;
+  align-content: center;
 }
 
-.form-container > img{
+.image-container > img{
   width: 400px;
 }
