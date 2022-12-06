@@ -89,7 +89,6 @@ body{
 
 .form-container > button:active{
   width: 97%;
-  height: 35px;
   transition: 0.2s ease;
 }
 
