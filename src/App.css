@@ -78,3 +78,14 @@ body{
   border: 0.5px solid lightgray ;
   border-radius: 5px;
 }
+
+/* Image Container CSS rules */
+
+.form-container{
+  width: 100%;
+  padding: 0 30px;
+}
+
+.form-container > img{
+  width: 477;
+}
