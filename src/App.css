@@ -62,6 +62,13 @@ body{
   height: 35px;
 }
 
+@media only screen and (max-width: 540px) {
+  .form-container > form > input{
+    width: 230px;
+    height: 35px;
+  }
+}
+
 .form-container > button{
   margin-top: 40px;
   width: 100%;
