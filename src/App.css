@@ -47,6 +47,7 @@ body{
   flex-direction: column;
   margin-top: 80px;
   padding: 0px 30px;
+  align-content: center;
 }
 
 .form-container > form{
