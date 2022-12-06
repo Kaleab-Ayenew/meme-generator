@@ -13,7 +13,6 @@ export default function Header(){
                 React Course - Project 3
             </span>
             
-
         </header>
     )
 }
