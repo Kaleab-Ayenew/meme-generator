@@ -10,7 +10,7 @@ export default function Header(){
             </div>
 
             <span className='title'>
-                
+                React Course - Project 3
             </span>
             
 
