@@ -4,7 +4,7 @@ export default function Form(props){
     let setMemeInd = props.indUpdate
     let memeInd = props.ind
     function clickHandler(){
-        if (memeInd <= 100){
+        if (memeInd < 99){
             setMemeInd(memeInd + 1)
             console.log(memeInd)
         }
