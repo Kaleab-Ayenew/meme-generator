@@ -15,6 +15,7 @@ body{
   justify-content: space-between;
   align-items: center;
   color: white;
+  padding: 0 15px;
 }
 
 .header-container > .logo-holder{
