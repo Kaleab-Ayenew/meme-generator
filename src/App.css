@@ -20,8 +20,10 @@ body{
 
 .header-container > .logo-holder{
   font-family: 'Fjalla One', sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 .header-container > .logo-holder > .logo-img{
-  width: 50px;
+  width: 30px;
 }
