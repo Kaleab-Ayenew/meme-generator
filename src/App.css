@@ -42,3 +42,7 @@ body{
 
 /* Form CSS definitions */
 
+.form-container{
+  display: flex;
+  flex-direction: column;
+}
