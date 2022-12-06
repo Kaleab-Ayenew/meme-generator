@@ -7,7 +7,7 @@ import PopularMeme from './components/PopularMeme';
 
 function App() {
 
-  let memeInd = 
+  let [memeInd, setMemeInd] = React.useState(0);
   return (
     <div className='main-container'>
       <Header />
