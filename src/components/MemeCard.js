@@ -2,7 +2,7 @@ import React  from "react";
 
 
 export default function MemeCard(props){
-    console.log(props)
+    console.log(props.props)
     return(
         <div className="meme-card-container">
             <span>
