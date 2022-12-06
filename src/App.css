@@ -117,7 +117,14 @@ body{
 
 .meme-card-container > span{
   font-family: 'Fjalla One', sans-serif;;
+  margin-bottom: 15px;
 }
 .meme-card-container > img{
   width: 350px;
+}
+
+.meme-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
