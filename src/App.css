@@ -114,11 +114,12 @@ body{
   flex-direction: column;
   align-items: center;
   margin: 15px 0;
-  border: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .meme-card-container > span{
-  font-family: 'Fjalla One', sans-serif;;
+  font-family: 'Fjalla One', sans-serif;
+  margin-bottom: 10px;
   
 }
 .meme-card-container > img{
