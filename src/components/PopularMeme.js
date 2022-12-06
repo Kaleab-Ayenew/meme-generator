@@ -10,6 +10,9 @@ export default function PopularMeme(){
         
     )
     return(
-        {allMemes}
+        <div className='meme-cards'>
+            {allMemes}
+        </div>
+        
     )
 }
