@@ -87,6 +87,11 @@ body{
   cursor: pointer;
 }
 
+.form-container > button:active{
+  width: 97%;
+  height: 35px;
+}
+
 /* Image Container CSS rules */
 
 .image-container{
