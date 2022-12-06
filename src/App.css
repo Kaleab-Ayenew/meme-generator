@@ -75,8 +75,6 @@ body{
   width: 100%;
   max-width: 600px;
   height: 40px;
-  border: 0.5px solid lightgray ;
-  border-radius: 5px;
 }
 
 /* Image Container CSS rules */
@@ -91,5 +89,5 @@ body{
 }
 
 .image-container > img{
-  width: 400px;
+  height: 300px;
 }
