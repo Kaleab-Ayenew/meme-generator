@@ -6,7 +6,9 @@ import ImageHolder from './src/components/ImageHolder'
 function App() {
   return (
     <div className='main-container'>
-      <
+      <Header />
+      <Form />
+      <ImageHolder />
     </div>
   );
 }
