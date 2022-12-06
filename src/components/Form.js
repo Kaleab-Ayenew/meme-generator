@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Form(props){
-    let setMemeInd = props.indUpdate
+    let setMemeInd = props.indUpdate //Pass the update function here
     let memeInd = props.ind
     function clickHandler(){
         if (memeInd < 99){
