@@ -75,4 +75,6 @@ body{
   width: 100%;
   max-width: 600px;
   height: 40px;
+  border: 0.5px solid gray ;
+  border-radius: 5px;
 }
