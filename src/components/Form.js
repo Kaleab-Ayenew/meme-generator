@@ -4,8 +4,8 @@ export default function Form(props){
     let setMemeInd = props.indUpdate
     let memeInd = props.ind
     function clickHandler(){
-        memeInd =+ 1
-        setMemeInd(memeInd)
+
+        setMemeInd(memeInd + 1)
         console.log(memeInd)
     }
     return (
