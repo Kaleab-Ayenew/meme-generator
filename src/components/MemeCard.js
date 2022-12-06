@@ -2,13 +2,13 @@ import React  from "react";
 
 
 export default function MemeCard(props){
-    console.log(props.props)
+    let data = props.data
     return(
         <div className="meme-card-container">
             <span>
-                {props.name}
+                {data.name}
             </span>
-            <img src={props.url}/>
+            <img src={data.url}/>
         </div>
     )
 }
