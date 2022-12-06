@@ -5,7 +5,7 @@ import MemeList from './memeList'
 export default function PopularMeme(){
     let MemeArray = MemeList.data.memes
     memes.map((item){
-        return()
+        return(<MemeCard props=item />)
     })
     return(
 
