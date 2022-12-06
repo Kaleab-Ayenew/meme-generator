@@ -1,6 +1,8 @@
 import React from 'react'
 
 export default function Form(props){
+    let setMemeInd = props.indUpdate
+    let memeInd = props.ind
     function clickHandler(){
         
     }
