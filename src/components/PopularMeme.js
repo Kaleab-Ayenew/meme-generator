@@ -9,7 +9,8 @@ export default function PopularMeme(props){
         return(<MemeCard data={item} />)
     } )
 
-    let meme = memeArray[n]
+    let meme = allMemes[n]
+    
     return(
         <div className='meme-cards'>
             {meme}
