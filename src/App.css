@@ -30,5 +30,11 @@ body{
 
 .header-container > .logo-holder > .logo-text{
   margin-left: 10px;
-  font-size: 1.5em;
+  font-size: 1.25em;
+}
+
+.header-container > .title{
+  font-family: 'Fjalla One', sans-serif;
+  display: flex;
+  align-items: center;
 }
