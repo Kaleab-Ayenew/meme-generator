@@ -10,7 +10,7 @@ export default function Form(){
                 <input placeholder="Enter Text on Top" className='input-text1'/>
                 <input placeholder='Enter Text at Bottom' className='input-text2'/>
             </form>
-            <button onClick={clickHandler()} className='generate-meme-button'>Generate Another Meme</button>
+            <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
         </div>
     )
 }
