@@ -84,6 +84,7 @@ body{
   font-family: 'Fjalla One', sans-serif;
   font-size: 1em;
   color: white;
+  cursor: pointer;
 }
 
 /* Image Container CSS rules */
