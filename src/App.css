@@ -107,3 +107,10 @@ body{
 .image-container > img{
   height: 300px;
 }
+
+.meme-card-container{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
