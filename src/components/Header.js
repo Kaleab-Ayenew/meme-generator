@@ -5,7 +5,7 @@ export default function Header(){
         <header className='header-container'>
 
             <div className='logo-holder'>
-                <img className="logo-img" alt="Logo"/>
+                <img src={logo} className="logo-img" alt="Logo"/>
                 <span className='logo-text'>Meme Generator</span>
             </div>
 

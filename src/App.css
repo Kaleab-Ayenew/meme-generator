@@ -21,3 +21,7 @@ body{
 .header-container > .logo-holder{
   font-family: 'Fjalla One', sans-serif;
 }
+
+.header-container > .logo-holder > .logo-img{
+  width: 50px;
+}
