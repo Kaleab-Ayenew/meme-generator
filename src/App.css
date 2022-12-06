@@ -115,6 +115,7 @@ body{
   align-items: center;
   margin: 15px 0;
   border-bottom: 1px solid lightgray;
+  padding: 15px 10px;
 }
 
 .meme-card-container > span{
