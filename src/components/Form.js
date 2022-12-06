@@ -6,6 +6,7 @@ export default function Form(props){
     function clickHandler(){
         memeInd =+ 1
         setMemeInd(memeInd)
+        console.log(memeInd)
     }
     return (
         <div className='form-container'>
