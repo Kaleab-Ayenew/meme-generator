@@ -8,7 +8,7 @@ export default function ImageHolder(){
 
     return (
         <div className='image-container'>
-            <img onClick={hoverHandler} src={memeImg} alt="the-image"></img>
+            <img onClick={this.hoverHandler} src={memeImg} alt="the-image"></img>
         </div>
     )
 }
