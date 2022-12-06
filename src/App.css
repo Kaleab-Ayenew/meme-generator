@@ -53,3 +53,12 @@ body{
   display: flex;
   justify-content: space-between;
 }
+
+.form-container > form > input{
+  width: 230px;
+  height: 35px;
+}
+
+.form-container > button{
+  margin-top: 40px;
+}
