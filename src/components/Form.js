@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Form(){
+export default function Form(props){
     function clickHandler(){
-        console.log("The Meme Generator Button was clicked");
+        
     }
     return (
         <div className='form-container'>

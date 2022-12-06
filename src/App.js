@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='main-container'>
       <Header />
-      <Form indUpdate={setMemeInd} />
+      <Form ind={memeInd} indUpdate={setMemeInd} />
       {/* <ImageHolder /> */}
       <PopularMeme ind={memeInd} />
     </div>
