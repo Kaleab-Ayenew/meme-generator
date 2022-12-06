@@ -4,7 +4,8 @@ export default function Form(props){
     let setMemeInd = props.indUpdate
     let memeInd = props.ind
     function clickHandler(){
-        
+        memeInd =+ 1
+        setMemeInd(memeInd)
     }
     return (
         <div className='form-container'>
