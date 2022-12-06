@@ -1,7 +1,7 @@
 import './App.css';
-import Form from './src/components/Form'
-import Header from './src/components/Header'
-import ImageHolder from './src/components/ImageHolder'
+import Form from './components/Form'
+import Header from './components/Header'
+import ImageHolder from './components/ImageHolder'
 
 function App() {
   return (
