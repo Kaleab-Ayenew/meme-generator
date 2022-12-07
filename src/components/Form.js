@@ -5,7 +5,7 @@ export default function Form(props){
     let memeInd = props.ind
 
     let [formData, setFormData] = React.useState(
-        {firstName:"", lastName:"", comment:"", isMale:true, ageGroup:""}
+        {firstName:"", lastName:"", comment:"", isMale:true, ageGroup:"", favColor:"red"}
     )
 
     function clickHandler(){
@@ -53,6 +53,16 @@ export default function Form(props){
                     <label htmlFor='child'>Old</label>
                     <input checked={formData.ageGroup === "old"} onChange={inputHandler} value="old" type="radio" name="ageGroup" id="old" />
                 </fieldset>
+
+                <select
+                    value={formDara.favColor}
+                >
+                    <option>Red</option>
+                    <option>Green</option>
+                    <option>Yellow</option>
+                    <option>Blue</option>
+                    <option>White</option>
+                </select>
 
             </form>
             <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
