@@ -10,6 +10,8 @@ import boxArray from './components/BoxList';
 function App() {
 
   let [memeInd, setMemeInd] = React.useState(0);
+
+  let [boxList, setBoxList] = React.useState(boxArray)
   return (
     <div className='main-container'>
       <Header />
