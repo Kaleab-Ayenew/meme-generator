@@ -43,7 +43,7 @@ export default function Form(props){
                 className='input-text1' value={formData.firstName}/>
                 <input name="lastName" onChange={inputHandler} placeholder='Enter Text at Bottom' 
                 className='input-text2' value={formData.lastName}/>
-                <textarea bla="bla" name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
+                <textarea name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
                 <br/>
                 <br/>
                 <label htmlFor='isMale'>
