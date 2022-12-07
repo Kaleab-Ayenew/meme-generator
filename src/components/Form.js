@@ -18,7 +18,7 @@ export default function Form(props){
     
     function inputHandler(event){
         const {name,bla,value, type, checked} = event.target
-        console.log(bla)
+        
         setFormData((oldData)=>{
             return (
                 {
