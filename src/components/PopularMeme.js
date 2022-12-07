@@ -3,6 +3,10 @@ import MemeCard from './MemeCard'
 import MemeList from './memeList'
 
 export default function PopularMeme(props){
+
+    let formData = props.inputData
+    let setFormData = props.inputSet
+
     let n = props.ind
     let memeArray = MemeList.data.memes
     let allMemes = memeArray.map((item)=>{
@@ -12,9 +16,8 @@ export default function PopularMeme(props){
     let meme = allMemes[n]
 
 
-    let formData = props.inputData
-    let setFormData = props.inputSet
-    console.log("This is a log from PopularMemes", formData)
+    
+
     
     return(
         <div className='meme-cards'>
