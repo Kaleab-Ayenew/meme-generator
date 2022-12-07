@@ -123,16 +123,26 @@ body{
   position: relative;
 }
 
-.meme-card-container > span.upper-text{
+.meme-card-container > span{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   stroke-width: 0.09em;
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  position: absolute;
-  top: 20px;
+  font-size: 2em;
   
 }
+
+.meme-card-container > span.upper-text{
+  position: absolute;
+  top: 20px;
+}
+
+.meme-card-container > span.lower-text{
+  position: absolute;
+  bottom: 20px;
+}
+
 .meme-card-container > img{
   width: 350px;
 }
