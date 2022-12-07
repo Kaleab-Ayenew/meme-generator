@@ -38,10 +38,13 @@ export default function Form(props){
                 <input name="lastName" onChange={inputHandler} placeholder='Enter Text at Bottom' 
                 className='input-text2' value={formData.lastName}/>
                 <textarea name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
+                <br/>
+                <br/>
                 <label htmlFor='isMale'>
                     <input name="isMale" onChange={inputHandler} checked={formData.isMale} type="checkbox" id="isMale"/>Are you male?
                 </label>
-
+                <br/>
+                <br/>
                 <fieldset>
                     <legend>What is your age group:</legend>
                     <label htmlFor='child'>Child</label>
@@ -53,7 +56,8 @@ export default function Form(props){
                     <label htmlFor='child'>Old</label>
                     <input checked={formData.ageGroup === "old"} onChange={inputHandler} value="old" type="radio" name="ageGroup" id="old" />
                 </fieldset>
-
+                <br/>
+                <br/>
                 <select
                     name="favColor"
                     value={formData.favColor}
