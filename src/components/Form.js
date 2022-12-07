@@ -30,10 +30,10 @@ export default function Form(props){
         
         }
 
-        function submitHandler(event){
+    function submitHandler(event){
             event.preventDefault()
             console.log(formData)
-            console.log("Submitted!")
+            
         }
 
 
