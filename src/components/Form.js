@@ -5,7 +5,7 @@ export default function Form(props){
     let memeInd = props.ind
 
     let [formData, setFormData] = React.useState(
-        {firstName:"", lastName:"", comment:"", isMale:true, ageGroup:"", favColor:"red"}
+        {firstName:"", lastName:"", comment:"", isMale:true, ageGroup:"", favColor:""}
     )
 
     function clickHandler(){
@@ -59,6 +59,7 @@ export default function Form(props){
                     value={formData.favColor}
                     onChange={inputHandler}
                 >
+                    <option value="">--Choose a Color--</option>
                     <option value="red">Red</option>
                     <option value="green">Green</option>
                     <option value="yellow">Yellow</option>
