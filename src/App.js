@@ -12,6 +12,13 @@ function App() {
   let [memeInd, setMemeInd] = React.useState(0);
 
   let [boxList, setBoxList] = React.useState(boxArray)
+
+  let boxComps = boxList.map(
+    (item)=>{
+      return <Box {...item} />
+    }
+  )
+
   return (
     <div className='main-container'>
       <Header />
