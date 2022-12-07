@@ -1,5 +1,5 @@
 
-let boxArray = [
+const boxArray = [
     {
         id: 1,
         on: true
@@ -16,4 +16,4 @@ let boxArray = [
     },
 ]
 
-export default 
+export default boxArray
