@@ -13,6 +13,12 @@ function App() {
 
   let [boxList, setBoxList] = React.useState(boxArray)
 
+  let [formData, setFormData] = React.useState(
+    {firstName:"", lastName:""}
+)
+
+  
+
   return (
     <div className='main-container'>
       <Header />

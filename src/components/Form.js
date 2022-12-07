@@ -4,9 +4,9 @@ export default function Form(props){
     let setMemeInd = props.indUpdate //Pass the update function here
     let memeInd = props.ind
 
-    let [formData, setFormData] = React.useState(
-        {firstName:"", lastName:""}//, comment:"", isMale:true, ageGroup:"", favColor:""}
-    )
+    //let [formData, setFormData] = React.useState(
+    //    {firstName:"", lastName:""}//, comment:"", isMale:true, ageGroup:"", favColor:""}
+    //)
 
     function clickHandler(){
         if (memeInd < 99){
