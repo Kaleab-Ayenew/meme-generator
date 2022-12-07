@@ -19,7 +19,7 @@ function App() {
       <Form ind={memeInd} indUpdate={setMemeInd} />
       {/* <ImageHolder /> */}
       <PopularMeme ind={memeInd} />
-      <Box boxes={boxList} setBoxes={setBoxList} />
+      {/* <Box boxes={boxList} setBoxes={setBoxList} /> */}
     </div>
   );
 }
