@@ -31,6 +31,7 @@ export default function Form(props){
         }
 
         function submitHandler(){
+            event.preventDefault()
             console.log("Submitted!")
         }
 
