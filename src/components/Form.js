@@ -18,6 +18,13 @@ export default function Form(props){
 
     function inputHandler(event){
         const {name,value, type} = event.targets
+        if (type==="checkbox"){
+            setFormData(
+                (oldData)=>{
+                    return({...oldData,isMale:!isMale})
+                }
+            )
+        }
         setFormData((oldData)=>{
             return (
                 {
