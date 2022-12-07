@@ -3,7 +3,9 @@ import React from 'react';
 import Form from './components/Form'
 import Header from './components/Header'
 import ImageHolder from './components/ImageHolder'
-import PopularMeme from './components/PopularMeme';
+import PopularMeme from './components/PopularMeme'
+import Box from './components/Box'
+import boxArray from './components/BoxList';
 
 function App() {
 
