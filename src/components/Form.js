@@ -70,9 +70,9 @@ export default function Form(props){
                     <option value="blue">Blue</option>
                     <option value="white">White</option>
                 </select>
-
+                <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
             </form>
-            <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
+            
         </div>
     )
 }
