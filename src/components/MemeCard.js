@@ -3,6 +3,7 @@ import React  from "react";
 
 export default function MemeCard(props){
     let data = props.data
+    console.log(data)
     return(
         <div className="meme-card-container">
             <span className="upper-text">
