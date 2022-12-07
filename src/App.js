@@ -22,9 +22,9 @@ function App() {
   return (
     <div className='main-container'>
       <Header />
-      <Form ind={memeInd} indUpdate={setMemeInd} />
+      <Form inputData={formData} inputSet={setFormData} ind={memeInd} indUpdate={setMemeInd} />
       {/* <ImageHolder /> */}
-      <PopularMeme ind={memeInd} />
+      <PopularMeme inputData={formData} inputSet={setFormData} ind={memeInd} />
       {/* <Box boxes={boxList} setBoxes={setBoxList} /> */}
     </div>
   );
