@@ -55,7 +55,9 @@ export default function Form(props){
                 </fieldset>
 
                 <select
+                    name="favColor"
                     value={formData.favColor}
+                    onChange={inputHandler}
                 >
                     <option value="red">Red</option>
                     <option value="green">Green</option>
