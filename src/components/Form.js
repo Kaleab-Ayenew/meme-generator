@@ -17,12 +17,12 @@ export default function Form(props){
     }
 
     function inputHandler(event){
-
+        const {name,value} = event.targets
         setFormData((oldData)=>{
             return (
                 {
                     ...oldData,
-                    [event.target.name]:event.target.value
+                    [name]: value
                 }
             )
         })
