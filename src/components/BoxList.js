@@ -6,12 +6,12 @@ let boxArray = [
     },
 
     {
-        id: 1,
+        id: 2,
         on: true
     },
 
     {
-        id: 1,
+        id: 3,
         on: true
     },
 ]
