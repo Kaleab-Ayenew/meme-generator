@@ -13,19 +13,13 @@ function App() {
 
   let [boxList, setBoxList] = React.useState(boxArray)
 
-  let boxComps = boxList.map(
-    (item)=>{
-      return <Box {...item} />
-    }
-  )
-
   return (
     <div className='main-container'>
       <Header />
       <Form ind={memeInd} indUpdate={setMemeInd} />
       {/* <ImageHolder /> */}
       <PopularMeme ind={memeInd} />
-      {boxComps}
+      <Box boxes={boxList} setBoxes={setBoxList} />
     </div>
   );
 }
