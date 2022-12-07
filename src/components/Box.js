@@ -7,7 +7,7 @@ export default function Box(props){
     function boxClickHandler(ind)=>{
         let newBoxArray = [...boxList]
         newBoxArray[ind].on = !newBoxArray[ind].on
-        setBoxList([...boxList, ])
+        setBoxList(newBoxArray)
     }
 
     let boxComps = boxList.map(
