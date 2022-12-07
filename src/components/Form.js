@@ -55,13 +55,13 @@ export default function Form(props){
                 </fieldset>
 
                 <select
-                    value={formDara.favColor}
+                    value={formData.favColor}
                 >
-                    <option>Red</option>
-                    <option>Green</option>
-                    <option>Yellow</option>
-                    <option>Blue</option>
-                    <option>White</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="blue">Blue</option>
+                    <option value="white">White</option>
                 </select>
 
             </form>
