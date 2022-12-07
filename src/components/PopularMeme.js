@@ -16,7 +16,7 @@ export default function PopularMeme(props){
 
     let meme = allMemes[n]
 
-
+    console.log(formData)
     
 
     
