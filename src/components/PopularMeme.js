@@ -11,7 +11,7 @@ export default function PopularMeme(props){
     let n = props.ind
     let memeArray = MemeList.data.memes
     let allMemes = memeArray.map((item)=>{
-        return(<MemeCard data={{...item, upperText:formData.upperText, lowerText:formData.lowerText}} />)
+        return(<MemeCard data={{...item, upperText:formData.firstName, lowerText:formData.lastName}} />)
     } )
 
     let meme = allMemes[n]
