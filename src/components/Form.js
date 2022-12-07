@@ -15,7 +15,7 @@ export default function Form(props){
         }
         
     }
-
+    console.log(formData)
     function inputHandler(event){
         const {name,value, type, checked} = event.target
 
@@ -27,7 +27,7 @@ export default function Form(props){
                 }
             )
         })
-        console.log(formData)
+        
 
         
 
