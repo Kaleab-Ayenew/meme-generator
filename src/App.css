@@ -135,12 +135,12 @@ body{
 
 .meme-card-container > span.upper-text{
   position: absolute;
-  top: 20px;
+  top: 35px;
 }
 
 .meme-card-container > span.lower-text{
   position: absolute;
-  bottom: 20px;
+  bottom: 35px;
 }
 
 .meme-card-container > img{
