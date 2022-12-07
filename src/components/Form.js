@@ -21,7 +21,7 @@ export default function Form(props){
         if (type==="checkbox"){
             setFormData(
                 (oldData)=>{
-                    return({...oldData,isMale:!oldData.isMale})
+                    return({...oldData,isMale:!checked})
                 }
             )
             console.log(formData)
