@@ -15,7 +15,7 @@ export default function Form(props){
         }
         
     }
-    console.log(formData)
+    
     function inputHandler(event){
         const {name,bla,value, type, checked} = event.target
         console.log(bla)
@@ -30,8 +30,9 @@ export default function Form(props){
         
         }
 
-        function submitHandler(){
+        function submitHandler(event){
             event.preventDefault()
+            console.log(formData)
             console.log("Submitted!")
         }
 
