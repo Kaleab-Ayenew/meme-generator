@@ -5,7 +5,7 @@ export default function Form(props){
     let memeInd = props.ind
 
     let [formData, setFormData] = React.useState(
-        {firstName:"", lastName:"", comment:"", isMale:false}
+        {firstName:"", lastName:"", comment:"", isMale:true}
     )
 
     function clickHandler(){
@@ -42,7 +42,7 @@ export default function Form(props){
                 className='input-text2' value={formData.lastName}/>
                 <textarea name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
                 <label htmlFor='isMale'>
-                    <input name="sex" onChange={inputHandler} checked={formData.isMale} type="checkbox" id="isMale"/>Are you male?
+                    <input name="isMale" onChange={inputHandler} checked={formData.isMale} type="checkbox" id="isMale"/>Are you male?
                 </label>
             </form>
             <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
