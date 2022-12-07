@@ -6,7 +6,8 @@ export default function Box(props){
 
     let boxComps = boxList.map(
         (item)=>{
-          return <div className={`box ${secondClass}`}></div>
+            let secondClass = item.on ? "box-on" : "box-off"
+            return <div className={`box ${secondClass}`}></div>
         }
       )
 
