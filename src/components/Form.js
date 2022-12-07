@@ -5,7 +5,7 @@ export default function Form(props){
     let memeInd = props.ind
 
     let [formData, setFormData] = React.useState(
-        {firstName:"", lastName:"", comment:"", isMale:true}
+        {firstName:"", lastName:"", comment:"", isMale:true, ageGroup:""}
     )
 
     function clickHandler(){
