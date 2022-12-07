@@ -48,13 +48,13 @@ export default function Form(props){
                 <fieldset>
                     <legend>What is your age group:</legend>
                     <label htmlFor='child'>Child</label>
-                    <input value="child" type="radio" name="ageGroup" id="child" />
+                    <input onChange={inputHandler} value="child" type="radio" name="ageGroup" id="child" />
 
                     <label htmlFor='child'>Young</label>
-                    <input value="young" type="radio" name="ageGroup" id="young" />
+                    <input onChange={inputHandler} value="young" type="radio" name="ageGroup" id="young" />
 
                     <label htmlFor='child'>Old</label>
-                    <input value="old" type="radio" name="ageGroup" id="old" />
+                    <input onChange={inputHandler} value="old" type="radio" name="ageGroup" id="old" />
                 </fieldset>
 
             </form>
