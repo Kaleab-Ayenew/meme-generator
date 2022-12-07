@@ -13,7 +13,7 @@ export default function PopularMeme(props){
 
 
     let formData = props.inputData
-    let setFormData = props.inputSetter
+    let setFormData = props.inputSet
     console.log("This is a log from PopularMemes", formData)
     
     return(
