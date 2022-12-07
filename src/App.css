@@ -120,12 +120,15 @@ body{
   margin: 15px 0;
   border-bottom: 1px solid lightgray;
   padding: 15px 10px;
+  position: relative;
 }
 
 .meme-card-container > span{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   stroke-width: 0.09em;
-  margin-bottom: 10px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   
 }
 .meme-card-container > img{
