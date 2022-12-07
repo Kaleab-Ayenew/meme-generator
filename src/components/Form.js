@@ -24,7 +24,9 @@ export default function Form(props){
                     return({...oldData,isMale:!oldData.isMale})
                 }
             )
-        }
+            console.log(formData)
+        }else{
+
         setFormData((oldData)=>{
             return (
                 {
@@ -33,8 +35,9 @@ export default function Form(props){
                 }
             )
         })
-
         console.log(formData)
+
+        }
 
     }
 
