@@ -54,7 +54,6 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -71,6 +70,10 @@ body{
     width: 100%;
     margin-top: 15px;
     height: 35px;
+  }
+
+  .form-container > form{
+    flex-direction: column;
   }
 }
 
