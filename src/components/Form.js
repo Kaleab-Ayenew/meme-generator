@@ -3,6 +3,11 @@ import React from 'react'
 export default function Form(props){
     let setMemeInd = props.indUpdate //Pass the update function here
     let memeInd = props.ind
+
+    let [formData, setFormData] = React.useState(
+        {firstName:"", lastName:"", comment:""}
+    )
+
     function clickHandler(){
         if (memeInd < 99){
             setMemeInd(oldVal=>oldVal+1)
@@ -10,11 +15,33 @@ export default function Form(props){
         }
         
     }
+
+    function inputHandler(event){
+
+        setFormData((oldData)=>{
+            return (
+                {
+                    ...oldData,
+                    [event.target.name]:event.target.value
+                }
+            )
+        })
+
+        console.log(formData)
+
+    }
+
     return (
         <div className='form-container'>
             <form>
-                <input placeholder="Enter Text on Top" className='input-text1'/>
-                <input placeholder='Enter Text at Bottom' className='input-text2'/>
+                <input name="firstName" onChange={inputHandler} placeholder="Enter Text on Top" 
+                className='input-text1' value={formData.firstName}/>
+                <input name="lastName" onChange={inputHandler} placeholder='Enter Text at Bottom' 
+                className='input-text2' value={formData.lastName}/>
+                <textarea name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
+                <label htmlFor='isMale'>
+                    <input type="checkbox" id="isMale"/>Are you male?
+                </label>
             </form>
             <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
         </div>
