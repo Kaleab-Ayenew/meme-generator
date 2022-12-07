@@ -15,10 +15,10 @@ export default function Form(props){
         }
         
     }
-    
+    console.log(formData)
     function inputHandler(event){
         const {name,value, type, checked} = event.target
-        console.log(formData)
+        
         setFormData((oldData)=>{
             return (
                 {
@@ -28,10 +28,7 @@ export default function Form(props){
             )
         })
         
-
-        
-
-    }
+        }
 
     return (
         <div className='form-container'>
