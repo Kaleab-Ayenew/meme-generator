@@ -30,14 +30,16 @@ export default function Form(props){
         
         }
 
+
+
     return (
         <div className='form-container'>
-            <form>
+            <form onSubmit={submitHandler}>
                 <input name="firstName" onChange={inputHandler} placeholder="Enter Text on Top" 
                 className='input-text1' value={formData.firstName}/>
                 <input name="lastName" onChange={inputHandler} placeholder='Enter Text at Bottom' 
                 className='input-text2' value={formData.lastName}/>
-                <textarea name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
+                <textarea bla="bla" name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
                 <br/>
                 <br/>
                 <label htmlFor='isMale'>
@@ -70,7 +72,7 @@ export default function Form(props){
                     <option value="blue">Blue</option>
                     <option value="white">White</option>
                 </select>
-                <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
+                <button className='generate-meme-button'>Generate Another Meme</button>
             </form>
             
         </div>
