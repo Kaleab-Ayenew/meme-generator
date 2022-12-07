@@ -17,8 +17,8 @@ export default function Form(props){
     }
     console.log(formData)
     function inputHandler(event){
-        const {name,value, type, checked} = event.target
-        
+        const {name,bla,value, type, checked} = event.target
+        console.log(bla)
         setFormData((oldData)=>{
             return (
                 {
@@ -28,6 +28,10 @@ export default function Form(props){
             )
         })
         
+        }
+
+        function submitHandler(){
+            console.log("Submitted!")
         }
 
 
