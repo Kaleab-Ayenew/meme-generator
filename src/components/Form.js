@@ -44,6 +44,19 @@ export default function Form(props){
                 <label htmlFor='isMale'>
                     <input name="isMale" onChange={inputHandler} checked={formData.isMale} type="checkbox" id="isMale"/>Are you male?
                 </label>
+
+                <fieldset>
+                    <legend>What is your age group:</legend>
+                    <label htmlFor='child'>Child</label>
+                    <input type="radio" name="ageGroup" id="child" />
+
+                    <label htmlFor='child'>Young</label>
+                    <input type="radio" name="ageGroup" id="young" />
+
+                    <label htmlFor='child'>Old</label>
+                    <input type="radio" name="ageGroup" id="old" />
+                </fieldset>
+
             </form>
             <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
         </div>
