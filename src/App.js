@@ -25,6 +25,7 @@ function App() {
       <Form ind={memeInd} indUpdate={setMemeInd} />
       {/* <ImageHolder /> */}
       <PopularMeme ind={memeInd} />
+      {boxComps}
     </div>
   );
 }
