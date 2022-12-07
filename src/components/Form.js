@@ -40,7 +40,7 @@ export default function Form(props){
                 className='input-text2' value={formData.lastName}/>
                 <textarea name="comment" value={formData.comment} onChange={inputHandler} placeholder="Give us a comment"/>
                 <label htmlFor='isMale'>
-                    <input type="checkbox" id="isMale"/>Are you male?
+                    <input checked={formData.isMale} type="checkbox" id="isMale"/>Are you male?
                 </label>
             </form>
             <button onClick={clickHandler} className='generate-meme-button'>Generate Another Meme</button>
