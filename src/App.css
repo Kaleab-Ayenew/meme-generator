@@ -124,7 +124,7 @@ body{
 }
 
 .meme-card-container > span{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Poppins', sans-serif;;
   stroke-width: 0.09em;
   color: white;
   -webkit-text-stroke-width: 1px;
